@@ -1,5 +1,6 @@
 
 ### Internal
+```
 ls - The most frequently used command in Linux to list directories
 pwd - Print working directory command in Linux
 cd - Linux command to navigate through directories
@@ -50,8 +51,10 @@ whatis - Find what a command is used for
 top - View active processes live with their system usage
 useradd and usermod - Add new user or change existing users data
 passwd - Create or update passwords for existing users
+```
 
 ### External
+```
 wget - Wget
 curl - Curl
 tmux - Tmux
@@ -76,20 +79,18 @@ bat - Better cat
 tree - File tree
 alpaca - (github.com/samuong/alpaca) Local proxy server 
 tldr - (github.com/isacikgoz/tldr)
+```
 
 ### Programming 
+```
 go
 node/bin/deno
 python
 lua
 gcc/zig
 java
+```
 
-### Networking
-ping - Ping
-nslookup - DNS check
-traceroute - 
-ifconfig
 
 
 
