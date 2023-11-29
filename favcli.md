@@ -160,6 +160,7 @@ kubectl - Kubectl
 docker - Docker
 docker-compose - Docker compose
 fzf - File search
+ripgrep - File content search
 pet - (github.com/knqyf263/pet) Snippet manager
 resh - (github.com/curusarn/resh) Bash history search
 htop - Better top
