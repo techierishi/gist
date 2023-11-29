@@ -161,7 +161,7 @@ docker - Docker
 docker-compose - Docker compose
 fzf - File search
 pet - (github.com/knqyf263/pet) Snippet manager
-hstr - (github.com/dvorka/hstr) Bash history search
+resh - (github.com/curusarn/resh) Bash history search
 htop - Better top
 limactl - Create VMs in Mac
 colima - Docker VM manager
