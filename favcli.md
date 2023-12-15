@@ -163,6 +163,10 @@ fzf - File search
 ripgrep - File content search
 pet - (github.com/knqyf263/pet) Snippet manager
 resh - (github.com/curusarn/resh) Bash history search
+lnav - TUI log viewer
+lazygit - Git TUI
+lazydocker - Docker TUI
+k9s - K8s Tui
 htop - Better top
 limactl - Create VMs in Mac
 colima - Docker VM manager
@@ -177,7 +181,6 @@ tree - File tree
 alpaca - (github.com/samuong/alpaca) Local proxy server 
 tldr - (github.com/isacikgoz/tldr)
 jq - (github.com/jqlang/jq) JSON viewer
-lnav - TUI log viewer
 ```
 
 ### Programming 
