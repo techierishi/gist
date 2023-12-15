@@ -177,6 +177,7 @@ tree - File tree
 alpaca - (github.com/samuong/alpaca) Local proxy server 
 tldr - (github.com/isacikgoz/tldr)
 jq - (github.com/jqlang/jq) JSON viewer
+lnav - TUI log viewer
 ```
 
 ### Programming 
