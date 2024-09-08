@@ -56,6 +56,7 @@ cal - You can use cal command in Terminal window to see the calendar, as you can
 bc - bc is another cool and useful command for Linux users as it allows you to enable command line calculator in Linux Terminal when you execude following command.
 chage - The Linux command chage is an acronym for change age and it can be used to change the expiry information of the user’s password.
 df - You can get all the information of your file system just by executing df command in the Terminal window.
+du - Utility that allows users to analyze and report on disk usage within directories and files.
 help - When you execute this help command in Terminal window, it will list all built-in commands you can use in shell.
 pwd (Print Work Directory) - As the name Print Work Directory suggests, this command the path of the directory currently you’re working in. This command is very useful for all the Linux noobs and those who are new to Linux Terminal.
 ls - I think I don’t need to introduce to this command as this is one of the commonly used commands in Terminal by Linux users.
