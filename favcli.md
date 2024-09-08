@@ -8,7 +8,7 @@ mkdir - Command used to create directories in Linux
 mv - Move or rename files in Linux
 cp - Similar usage as mv but for copying files in Linux
 rm - Delete files or directories
-touch - Create blank/empty files
+touch - Create blank/empty files or update datetime of the file
 ln - Create symbolic links (shortcuts) to other files
 cat - Display file contents on the terminal
 clear - Clear the terminal display
