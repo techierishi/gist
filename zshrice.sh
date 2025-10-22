@@ -17,9 +17,10 @@ git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZS
 git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZSH_CUSTOM/plugins/zsh-autocomplete
 
 
+# ctrl+e+x to edit current command in vim
+
 # .zshrc
 eval "$(starship init zsh)"
 
-export EDITOR=vim
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete vi-mode)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
 source $ZSH/oh-my-zsh.sh
