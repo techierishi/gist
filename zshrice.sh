@@ -20,5 +20,6 @@ git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git $ZS
 # .zshrc
 eval "$(starship init zsh)"
 
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete)
+export EDITOR=vim
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting fast-syntax-highlighting zsh-autocomplete vi-mode)
 source $ZSH/oh-my-zsh.sh
