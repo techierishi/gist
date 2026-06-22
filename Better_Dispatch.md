@@ -1,6 +1,11 @@
 # Technical Specification: Better Dispatch Chrome Extension
 
+
+
 **Better Dispatch** is a developer-focused productivity Chrome Extension that replaces the rigid, 5-element constraint of the native GitHub Actions `workflow_dispatch` web form with an advanced, developer-friendly interface. By parsing non-destructive, custom metadata blocks from workflow configurations, the extension builds complex UI layouts featuring code syntax highlighting editors, searchable dropdowns, multiselect lists, and dynamically fetched option payloads.
+
+## Tech-Stach
+Svelte
 
 ---
 
