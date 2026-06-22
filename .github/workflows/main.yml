@@ -34,7 +34,7 @@ x-better-dispatch:
         url: "https://company.com"
         method: "GET"
         headers:
-          Authorization: "Bearer \${SETTINGS_INTERNAL_TOKEN}"
+          Authorization: "Bearer ${SETTINGS_INTERNAL_TOKEN}"
         dataPath: "data.services" # JSON path selector for the array
         mapping:
           label: "display_name"   # What the user sees in the searchable dropdown
