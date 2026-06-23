@@ -1,6 +1,6 @@
 name: Tes Better Dispatch
 
-# 1. Official GitHub triggers remain untouched and perfectly valid
+  
 on:
   workflow_dispatch:
     inputs:
@@ -14,41 +14,37 @@ on:
         type: string
         description: "Selected flags (Fallback text box for standard GitHub UI)"
 
-# 2. Custom root key safely ignored by GitHub, parsed by your extension
-x-better-dispatch:
-  version: "1.0.0"
-  elements:
-    # Maps to the 'deploy_notes' input above
-    - id: deploy_notes
-      type: textarea
-      editor: prism
-      language: markdown
-      placeholder: "Enter markdown release logs here..."
-
-    # Maps to the 'target_microservices' input above
-    - id: target_microservices
-      type: multiselect
-      searchable: true
-      # Declarative HTTP call config to fetch dynamic list options
-      datasource:
-        url: "https://company.com"
-        method: "GET"
-        headers:
-          Authorization: "Bearer ${SETTINGS_INTERNAL_TOKEN}"
-        dataPath: "data.services" # JSON path selector for the array
-        mapping:
-          label: "display_name"   # What the user sees in the searchable dropdown
-          value: "service_id"     # The string value sent on submission
-
-    # Maps to the 'feature_flags' input above
-    - id: feature_flags
-      type: multiselect
-      searchable: true
-      options:
-        - beta-dashboard
-        - new-payment-gateway
-        - performance-logs
-
+      better_dispatch_inputs:
+        type: string
+        required: false
+        default: |
+          version: "1.0.0"
+          elements:
+            - id: deploy_notes
+              type: textarea
+              editor: prism
+              language: markdown
+              placeholder: "Enter markdown release logs here..."
+            - id: target_microservices
+              type: multiselect
+              searchable: true
+              # Declarative HTTP call config to fetch dynamic list options
+              datasource:
+                url: "https://company.com"
+                method: "GET"
+                headers:
+                  Authorization: "Bearer \${SETTINGS_INTERNAL_TOKEN}"
+                dataPath: "data.services" # JSON path selector for the array
+                mapping:
+                  label: "display_name"   # What the user sees in the searchable dropdown
+                  value: "service_id"     # The string value sent on submission
+            - id: feature_flags
+              type: multiselect
+              searchable: true
+              options:
+                - beta-dashboard
+                - new-payment-gateway
+                - performance-logs
 jobs:
   log-form-data:
     runs-on: ubuntu-latest
