@@ -51,4 +51,4 @@ jobs:
     steps:
       - name: Display Form Output
         run: |
-          echo "Text entered: ${{ inputs.deploy_notes }}"
+          echo "Text entered: ${{ inputs.better_dispatch_inputs }}"
