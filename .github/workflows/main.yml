@@ -20,12 +20,12 @@ on:
         default: |
           version: "1.0.0"
           elements:
-            - id: deploy_notes
+            - id: deploy_notes_custom
               type: textarea
               editor: prism
               language: markdown
               placeholder: "Enter markdown release logs here..."
-            - id: target_microservices
+            - id: target_microservices_custom
               type: multiselect
               searchable: true
               # Declarative HTTP call config to fetch dynamic list options
@@ -38,7 +38,7 @@ on:
                 mapping:
                   label: "display_name"   # What the user sees in the searchable dropdown
                   value: "service_id"     # The string value sent on submission
-            - id: feature_flags
+            - id: feature_flags_custom
               type: multiselect
               searchable: true
               options:
